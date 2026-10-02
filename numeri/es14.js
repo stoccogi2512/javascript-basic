@@ -15,13 +15,15 @@
 function es14_1(n) {
   // 1. Incrementa n di 1 usando += e restituiscilo
   // TODO: scrivi qui la tua soluzione
+  return n += 1;
 }
 
 function es14_2(n) {
-  // 2. Restituisci il valore di n con post-incremento (n++)
+  // 2. Il valore di n con post-incremento (n++)
   // Poi restituisci n (dopo l'incremento)
   // Suggerimento: salva il valore originale prima di incrementare
   // TODO: scrivi qui la tua soluzione
+  return 
 }
 
 function es14_3(n) {
