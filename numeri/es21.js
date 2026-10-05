@@ -12,6 +12,7 @@
 
 function es21(secondi) {
   // TODO: scrivi qui la tua soluzione
+  
 }
 
 // --- NON MODIFICARE SOTTO ---
