@@ -15,6 +15,17 @@
 
 function es24(n) {
   // TODO: scrivi qui la tua soluzione
+  var positivo = n > 0
+  var pari = n % 2 == 0;
+  var assoluto = Math.abs(n);
+  var radice = 0;
+  if (n > 0) {
+    radice = Math.sqrt(n)
+  }
+  if (n < 0) {
+    radice = NaN;
+  }
+  return {positivo: positivo, pari: pari, assoluto: assoluto, radice: radice}
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -11,8 +11,28 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es23(a, b, operatore) {
-  // TODO: scrivi qui la tua soluzione
-}
-
+  switch(operatore) {
+    case "+":
+      return a + b;
+    case "-":
+      return a - b;
+    case "*":
+      return a * b;
+    case "/":
+      return a /b;
+  }
+    if (operatore == "+") {
+      return a + b;
+    }
+    if (operatore == "-") {
+      return a - b;
+    }
+    if (operatore == "*"){
+      return a * b;
+    }
+    if (operatore == "/"){
+      return a / b;
+    }
+  }
 // --- NON MODIFICARE SOTTO ---
 export { es23 };
