@@ -24,6 +24,7 @@ function es9_2(eta) {
   // TODO: scrivi qui la tua soluzione
   if (eta >= 18) {
     return "maggiorenne"
+    
   }
   else{
     return "minorenne"
