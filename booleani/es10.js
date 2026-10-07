@@ -10,16 +10,25 @@
 function es10_1(eta, accompagnato) {
   // 1. Restituisci true se eta >= 18 OPPURE (eta >= 16 E accompagnato)
   // TODO: scrivi qui la tua soluzione
+  if (eta >=18 || (eta >=16  && accompagnato)) {
+    return true
+  }
 }
 
 function es10_2(n) {
   // 2. Restituisci true se n è compreso tra 1 e 10 (estremi inclusi)
   // TODO: scrivi qui la tua soluzione
+  if (n >= 1 || n<=10) {
+    return true
+  }
 }
 
 function es10_3(s) {
   // 3. Restituisci true se la stringa s NON è vuota e NON è null
   // TODO: scrivi qui la tua soluzione
+  if (s !== "" && s !== null) {
+    return true
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---
