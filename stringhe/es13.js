@@ -11,16 +11,21 @@
 function es13_1(s) {
   // 1. Trasforma la stringa ricevuta in minuscolo
   // TODO: scrivi qui la tua soluzione
+  return s.toLowerCase();
 }
 
 function es13_2(s) {
   // 2. Converti la frase ricevuta tutta in minuscolo
   // TODO: scrivi qui la tua soluzione
+  return s.toLowerCase("ciao mondo");
 }
 
 function es13_3(a, b) {
   // 3. Confronta due email ignorando maiuscole/minuscole (true se uguali)
   // TODO: scrivi qui la tua soluzione
+  if (a.toLowerCase() == b.toLowerCase()){
+    return true;
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---
