@@ -13,7 +13,7 @@
 
 function es13(coupon, totale, fedele) {
   // TODO: scrivi qui la tua soluzione
-if (coupon ===true || totale >= 100 && fedele === true) {
+if (coupon === true || totale >= 100 && fedele === true) {
   return true
 }
 else
