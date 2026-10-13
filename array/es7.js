@@ -11,6 +11,7 @@
 function es7_1(a, b) {
   // 1. Unisci gli array a e b in un unico array
   // TODO: scrivi qui la tua soluzione
+  return array1.concat("a", "b")
 }
 
 function es7_2(a, b, c) {
