@@ -18,7 +18,7 @@ function es9_1(arr) {
 function es9_2(arr, elemento) {
   // 2. Sostituisci l'elemento all'indice 0 con elemento e restituisci l'array
   // TODO: scrivi qui la tua soluzione
-  return arr.splice(0, 1, elemento)
+  arr.splice(0, 1, elemento)
   return arr
 }
 
