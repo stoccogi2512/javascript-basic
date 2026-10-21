@@ -14,6 +14,8 @@
 function es17() {
   const numeri = [3, 8, 12, 5, 20, 7, 14];
   // TODO: scrivi qui la tua soluzione
+  var numer = numeri.filter(x => x%2==0)
+  return numer.map(x => x*2)
 }
 
 // --- NON MODIFICARE SOTTO ---

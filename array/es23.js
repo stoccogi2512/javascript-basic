@@ -12,6 +12,7 @@
 
 function es23(numeri) {
   // TODO: scrivi qui la tua soluzione
+  return somma(numeri);
 }
 
 // --- NON MODIFICARE SOTTO ---

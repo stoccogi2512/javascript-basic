@@ -27,7 +27,7 @@ function es14_3(arr) {
   // 3. Se l'array contiene il numero 5, restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa find() o includes()
   // TODO: scrivi qui la tua soluzione
-  if (arr.find(n => n.includes(5))) {
+  if (arr.includes(5)) {
     return "Trovato"
      }
      return "non trovato"

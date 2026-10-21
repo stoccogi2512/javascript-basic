@@ -11,6 +11,8 @@
 function es22() {
   const frutti = ["melone", "banana", "arancia", "fragola"];
   // TODO: scrivi qui la tua soluzione
+  return frutti.sort()
+
 }
 
 // --- NON MODIFICARE SOTTO ---
